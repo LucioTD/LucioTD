@@ -6,6 +6,7 @@ assets/*.svg. Run locally or from .github/workflows/stats.yml.
 """
 
 import datetime as dt
+import re
 import json
 import os
 import urllib.request
@@ -177,7 +178,9 @@ def collect():
     rel = {}
     for name in ("Yoink", "Aura"):
         rs = get(f"https://api.github.com/repos/{USER}/{name}/releases", token)
-        rel[name] = (sum(a["download_count"] for r in rs for a in r["assets"]), rs[0]["tag_name"] if rs else "")
+        # the list isn't newest-first, so ask for the release GitHub marks as latest
+        tag = get(f"https://api.github.com/repos/{USER}/{name}/releases/latest", token)["tag_name"] if rs else ""
+        rel[name] = (sum(a["download_count"] for r in rs for a in r["assets"]), re.sub(r"^v\.?", "v", tag))
     return mr, repos, rel
 
 
