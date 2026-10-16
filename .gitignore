@@ -1,0 +1,4 @@
+# source art, banner.jpg is the published copy
+assets/AyanamiBlue*.jpg
+__pycache__/
+readme-*.png

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="36" viewBox="0 0 830 36" role="img" aria-labelledby="t"><title id="t">section divider</title><rect width="830" height="36" fill="#060606"/>
+<defs><pattern id="d" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.0" cy="4.0" r="0.6" fill="#24a2ea"/></pattern></defs><rect width="830" height="36" fill="url(#d)" opacity="0.22"/>
+<rect x="0" y="0" width="830" height="36" fill="#060606" opacity="0.55"/>
+<path d="M0 18.5H830" stroke="#3a4250" stroke-width="0.75"/>
+<rect x="0" y="15" width="132" height="7" fill="#f2f2f2"/>
+<rect x="138" y="15" width="7" height="7" fill="#1254c6"/>
+<path d="M160.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M172.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M184.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M196.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M208.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M220.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M232.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M244.5 13V24" stroke="#3a4250" stroke-width="0.75"/><path d="M256.5 13V24" stroke="#3a4250" stroke-width="0.75"/>
+<g stroke="#3a4250" stroke-width="0.75" fill="none"><circle cx="415" cy="18.5" r="4"/><path d="M408 18.5H422M415 11.5V25.5"/></g>
+<text x="830" y="11" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Consolas,Menlo,monospace" font-size="8" fill="#b8bcc6" letter-spacing="1">LUCIO / NL</text>
+<g stroke="#d42a3c" stroke-width="0.9"><path d="M702 4V33M690 18.5H714"/></g>
+</svg>
